@@ -2,10 +2,11 @@
 if (keyboard_check(ord("A"))) x = x - spd;
 if (keyboard_check(ord("D"))) x = x + spd;
 
-if (x <= 0){
-	x = 0;	
+if (x <= 0 + (sprite_width / 2)){
+	x = 0 + (sprite_width / 2);	
 }
 
-if(x >= myWidth){
-	x = myWidth;	
+if(x >= myWidth - (sprite_width / 2)){
+
+	x = myWidth - (sprite_width / 2);	
 }
