@@ -1,8 +1,11 @@
-/// @description Insert description here
+/// @Set up motion
 
-// Set up motion
-direction = point_direction(x,y,mouse_x,mouse_y);
-direction = direction + random_range(-4,4);
-speed = 16;
-image_angle = direction
+//direction = point_direction(x,y,mouse_x,mouse_y);
+//direction = direction + random_range(-4,4);
+//speed = 16;
+//image_angle = direction
+
+spd = 8; 
+image_angle = 90;
+
 

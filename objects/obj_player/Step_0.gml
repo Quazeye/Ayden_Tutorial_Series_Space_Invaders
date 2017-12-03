@@ -13,7 +13,7 @@ if(x >= myWidth - (sprite_width / 2)){
 
 if(mouse_check_button(mb_left)) && (cooldown <= 0){
 	instance_create_layer(x,y,"BulletsLayer",obj_bullet)
-	cooldown = 5;
+	cooldown = 60;
 }
 
 cooldown = cooldown - 1;
